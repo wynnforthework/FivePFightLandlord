@@ -15,6 +15,8 @@ public class HGYXFadeIn : MonoBehaviour {
 	}
 
 	void Finish() {
-		// Debug.Log("完成");
+		Globe.loadName = "LoginScene";
+		Application.LoadLevel ("LoadingScene");
+		
 	}
 }
